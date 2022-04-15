@@ -1,0 +1,32 @@
+@import './../../../scss/index.scss' ;
+
+
+
+
+
+.card-column{
+    display:grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr  ;
+    
+    justify-items: center;
+    
+    
+}
+
+.card-item {
+    
+    //grid-column:  2/ 3;
+    padding: 10px;
+width: 400px;
+height: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+    
+
+   
+}
+
+

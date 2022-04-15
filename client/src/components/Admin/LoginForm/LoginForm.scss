@@ -1,0 +1,54 @@
+@import "../../../scss/index.scss";
+
+.login-form {   // clase principal para el componente 
+
+    text-align: left;
+    
+
+    .ant-form-item :last-of-type{
+        margin:0;
+  
+    }
+    .ant-form-item-control-input-content{
+      span {
+          padding: 5px;
+          //color: $font-dark ;
+
+      }
+
+    }
+  &__input {
+
+    border-radius: 5px;
+      .ant-input-prefix {
+          i{
+              //font-size : 0em + 22px /$defaultFontSize
+          }
+      }
+      input{
+         // padding: 20px 20px 40px !important;
+          &:focus{
+              border-color : $primary-color;
+              box-shadow: none;
+          }
+      }
+  }
+  &__button{
+    font-weight: bolder;
+    background-color: #33cccc8f;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+      margin-top: 20px;
+
+      &:hover{
+        background-color: #FFAE73;
+      }
+      &:focus ,&:active{
+        background-color: #5ccccc;
+        color:$font-light;
+        border:0; 
+
+      }
+  }
+}
