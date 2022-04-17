@@ -1,0 +1,42 @@
+@import '../../../index.scss';
+
+.menu-top-web{
+    position: sticky;
+    top : 0 ; 
+    //background-color: $background-dark-web;
+    background-color: $background-dark-light-web   ;
+    opacity: 0.9;
+
+    border:0;
+    align-items: center;
+    display:flex;
+  
+
+    li {
+        border: 0 !important;
+      
+
+        a {
+            color:#fff !important;
+            font-weight: bold;
+           
+
+            &:hover {
+                color: $primary-color !important;
+            }
+        }
+    }
+
+    &__logo{
+        padding: 0 !important;
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 3px;
+            position: relative;
+            left: -19px;
+            
+        }
+    }
+
+}

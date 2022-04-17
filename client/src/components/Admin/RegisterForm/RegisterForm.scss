@@ -1,0 +1,45 @@
+@import './../../../scss/index.scss';
+
+.register-form{
+    text-align: left;
+
+    .ant-form-item-control-input-content{
+        span {
+            padding: 5px;
+            //color: $font-dark ;
+  
+        }
+  
+      }
+
+      .anticon anticon-mail{
+          color: $font-dark;
+      }
+
+
+
+.register-form__input{
+    border-radius: 5px;
+   
+    
+
+}
+
+.register-form__button{
+    font-weight: bolder;
+    background-color: #33cccc8f;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    &:focus ,&:active{
+        background-color: #5ccccc;
+        color:$font-light;
+        border:0; 
+    
+    }
+    &:hover {
+        background-color: #FFAE73;
+    
+    }
+}
+}
