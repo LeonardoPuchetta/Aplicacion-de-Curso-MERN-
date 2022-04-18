@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './../SignIn/SignIn.scss';
-import {Layout , Tabs } from 'antd';
+import {Layout , Tabs ,Button } from 'antd';
 import {Redirect} from 'react-router-dom';
 import LeoLogo from '../../../assets/img/jpg/logo.JPG';
 
@@ -42,6 +42,9 @@ export default function SignIn(){
                     </TabPane>
                   
                  </Tabs>
+             </div>
+             <div>
+                 <Button className='btn' href='/'>Volver</Button>
              </div>
 
          </Content>
