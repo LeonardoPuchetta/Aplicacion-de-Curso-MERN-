@@ -8,7 +8,7 @@ Y una seccion de Administrador donde podemos crear nuevas targetas de cursos por
 Esta seccion de Administrador requiere previamente una autenticacion del usuario y es posible tambien crear nuevas secciones para la parte de Usuario desde la misma . 
 
 ## Seccion de Administrador
-
+ Para ingresar en esta seccion tendremos en principio un usuario activado (user mail : activado@gmail.com , password: activado)
 ### En la misma podremos encontrar :
 <ul>
 <li>
@@ -17,6 +17,23 @@ Usuarios : una lista de usuarios activos y otra lista de usuarios inactivos , co
 Menu : una lista de las secciones que aparecen en la cabecera de la pagina principal con la posibilidad de crear nuevas secciones estableciendo un nombre y una url para las mismas . Ademas se pueden modificar las secciones ya existentes . 
 <li>
 Cursos : una lista de los cursos promocionados los cuales se desplegaran en la seccion de Cursos de la pagina principal . Desde esta seccion se pueden crear nuevos cursos estableciendo la url del curso para poder linkear , un id que proporciona Udemy para cada uno de sus cursos ademas de establecer si el mismo tiene cupon de descuento y su precio.
+ <li>
+  Blog : en esta seccion podremos crear y actualizar posteos sobre distintas tematicas estableciendo un titulo , una url , una fecha de publicacion y su contenido . 
  <br/>
-        <img src=''/>
+ 
+ <h4> Imagen ilustrativa para obtener id de cursos<h4/>
+
+       
+  <img src='https://github.com/LeonardoPuchetta/Aplicacion-de-Curso-MERN-/blob/main/Captura3.JPG'>
+  
+  <br/>
+  <br/>
+  <h4> Imagen ilustrativa de la seccion Blog<h4/>
+
+       
+  <img src='https://github.com/LeonardoPuchetta/Aplicacion-de-Curso-MERN-/blob/main/Captura4.JPG'>
+ 
+
+   
  <ul/> 
+  
