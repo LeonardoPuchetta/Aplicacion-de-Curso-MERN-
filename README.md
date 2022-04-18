@@ -1,5 +1,5 @@
 # MERN
-Proyecto del curso MERN de Udemy revisado
+Proyecto del curso MERN de Udemy 
 
 ## Descripcion general : 
 
