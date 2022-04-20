@@ -1,0 +1,41 @@
+@import '../../../scss/index.scss';
+
+.main-banner{
+        position: relative;
+        height: 500px;
+        background-image: url('../../../assets/img/jpg/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center ;
+
+        &__dark{
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.7;
+
+
+        }
+
+        .ant-row{
+            display: flex;
+            align-items: center;
+            height: 100%;
+
+            h2{
+                color: #fff;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 1;
+            }
+
+            h3{
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+    
+}

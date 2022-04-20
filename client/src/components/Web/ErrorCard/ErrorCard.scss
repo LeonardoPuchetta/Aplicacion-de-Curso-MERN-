@@ -1,0 +1,81 @@
+
+@import './../../../scss/index.scss';
+
+.card-div{
+    display:grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr  ;
+    background-color: #3c67bd;
+    justify-items: center;
+    
+    
+}
+
+.card-item {
+    
+    //grid-column:  2/ 3;
+    padding: 10px;
+    width: auto;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    align-items: center;
+    
+    
+
+   
+}
+
+
+.error__card-info{
+    display: grid;
+    grid-template-rows: 30px 50px;
+    align-items: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    p {
+        display:flex;
+        color:black;
+        font-weight: bold;
+        text-align:center !important;
+        justify-content: center;
+        
+    }
+   
+    
+}
+
+#icon-error{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#advertencia{
+text-align: right;
+
+
+}
+
+.ant-card-body{
+    padding:20px 20px 0px 20px ;
+}
+
+.ant-card-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ant-card-meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ant-card-meta-avatar{
+    padding-right: -18px;
+}
+
+
+
+
