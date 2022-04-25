@@ -1,5 +1,15 @@
-# MERN
+# Curso MERN
 Proyecto del curso MERN de Udemy 
+
+## Instalacion 
+
+- Una vez clonado el proyecto en la carpeta local se debera correr el comando **yarn** dentro de la carpeta client , esto instalara los paquetes necesarios para el funcionamiento del proyecto 
+- Para levantar el cliente ejecutamos **yarn dev** en la carpeta client
+- Para levantar el servidor ejecutamos **yarn start** en la carpeta server
+- En Google Chrome debemos tener instalada la extension <a href='https://mybrowseraddon.com/access-control-allow-origin.html' target='_blank'>access-control-allow-origin</a> para el correcto funcionamiento del proyecto.
+- La base de datos del proyecto esta alojada en MongoAtlas 
+
+
 
 ## Descripcion general : 
 
@@ -24,14 +34,14 @@ Cursos : una lista de los cursos promocionados los cuales se desplegaran en la s
  <h4> Imagen ilustrativa para obtener id de cursos<h4/>
 
        
-  <img src='https://github.com/LeonardoPuchetta/Aplicacion-de-Curso-MERN-/blob/main/Captura3.JPG'>
+  <img src='https://github.com/LeonardoPuchetta/Aplicacion-de-Curso-MERN-/blob/main/Captura3.JPG' style="width : 800px ; height:auto">
   
   <br/>
   <br/>
   <h4> Imagen ilustrativa de la seccion Blog<h4/>
 
        
-  <img src='https://github.com/LeonardoPuchetta/Aplicacion-de-Curso-MERN-/blob/main/Captura4.JPG'>
+  <img src='https://github.com/LeonardoPuchetta/Aplicacion-de-Curso-MERN-/blob/main/Captura4.JPG' style="width : 730px ; height:auto">
  
 
    
