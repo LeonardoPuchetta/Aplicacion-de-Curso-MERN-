@@ -1,6 +1,15 @@
 # MERN
 Proyecto del curso MERN de Udemy 
 
+## Instalacion 
+
+- Una vez clonado el proyecto en la carpeta local se debera correr el comando **yarn** dentro de la carpeta client , esto instalara los paquetes necesarios para el funcionamiento del proyecto 
+- Para levantar el cliente ejecutamos **yarn dev** en la carpeta client
+- Para levantar el servidor ejecutamos **yarn start** en la carpeta server
+- En Google Chrome debemos tener instalada la extension https://mybrowseraddon.com/access-control-allow-origin.html para el correcto funcionamiento del proyecto
+
+
+
 ## Descripcion general : 
 
 Se trata de una aplicacion compuesta principalmente por dos secciones , una seccion de Usuario con cursos y blogs donde podemos ver desplegadas una serie de targetas con cursos de Udemy y acceder a distintos blogs previamente creados sobre distintas tematicas relacionadas al desarrollo de software. 
