@@ -19,7 +19,7 @@ mongoose.set('useFindAndModify', false);
 
 //conexion 
 
-mongoose.connect(`mongodb://${IP_SERVER}:${PORT_DB}/leonardopuchetta`, {useNewUrlParser: true , useUnifiedTopology: true }, (err,res)=> {
+mongoose.connect(`mongodb+srv://Leonardo:ratm2000@appcursos.nal5u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {useNewUrlParser: true , useUnifiedTopology: true }, (err,res)=> {
 if (err) {
     throw err
 } else {
