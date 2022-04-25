@@ -24,7 +24,7 @@
             img {
                 border-radius: 10px;
 
-                width: 100% ;
+                width:300px ;
                 height: auto;
             }
         }
@@ -66,7 +66,7 @@
                  width:50%;  
                  height: auto ;  
                  text-align: center !important ;
-                 font-size: 0em +17px / $defaultFontSize;
+                 font-size: 0em + 17px / $defaultFontSize;
                  
 
                  @media(min-width: $media-breackpoint-up-lg){
@@ -87,5 +87,20 @@
          
             
         }
+}
+.btn{
+    margin-top: 40px;
+    font-weight: bold;
+    background-color: #5ccccc;
+    border-radius: 8px;
+    
+    
+    &:hover{
+        background-color: #FFAE73;
+        border-width: 2px;
+        color: black;
+      }
+  
+
 }
 }

@@ -2,31 +2,84 @@
 
 
 
-
-
-.card-column{
-    display:grid;
-    width: 100%;
-    height: auto;
-    grid-template-columns: 1fr  ;
-    
-    justify-items: center;
-    
-    
+.card-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding:20px;
+   
 }
 
 .card-item {
+
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color:#1d4177;
+    align-items:center;
     
-    //grid-column:  2/ 3;
-    padding: 10px;
-width: 400px;
-height: auto;
-    margin-top: 80px;
-    margin-bottom: 100px;
-    
+}
+.reviews-courses__card-contact{
+    margin:20px;
+   // background-color: #455981;
+   background :linear-gradient(35deg,#ec8337,#33cccc);   
+
+    padding: 25px 0 35px 0 ;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px black;
+    border-color: transparent;
     
 
-   
+
+
+  
 }
+
+.reviews-courses__card-info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.reviews-courses__card-contact p {
+    font-weight: bolder;
+    color: black;
+    margin: 0px;
+}
+.link-contact{
+    display: flex;
+    flex-direction: row;
+
+ 
+
+
+    span{
+        margin:10px;
+    }
+}
+.btn-contact{
+    box-shadow: 1px 1px 1px black;
+    border-radius: 8px;
+    padding: 5px 20px 5px 10px ;
+    //background-color: #455981;
+    background :linear-gradient(35deg,#ec8337,#33cccc);   
+
+    border-color: transparent;
+    a {
+        color:black;
+        //color:#b4c5cc;
+        font-weight: bolder;
+    }
+   
+
+    }
+
+    .btn-contact:hover{
+        background-color: #4f7dc0;
+    }
+
+
 
 
